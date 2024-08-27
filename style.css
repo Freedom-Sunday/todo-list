@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: whitesmoke;
+}
+
+.todoCon{
+    background: linear-gradient(to bottom right, whitesmoke, lightgrey);
+    width: 40%;
+    height: 70%     ;
+    border: solid 2px teal;
+    border-radius: 10px;
+    
+}
+
+p{
+    margin-left: 5%;
+    color: orangered;
+    font-size: 15px;
+    font-style: italic;
+}
+
+input{
+    width: 90%;
+    height: 10%;
+    margin: 2% 4.5%;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px teal;
+    padding-left: 3%;
+    background-color: whitesmoke;
+}
+
+button{
+    width: 30%;
+    margin-left: 64.5%;
+    height: 7%;
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: whitesmoke;
+}
+
+ul{
+    padding-left: 8%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+ul li{
+    color: teal;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+small{
+    width: 100%;
+    color: teal;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 5%;
+}
